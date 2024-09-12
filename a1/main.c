@@ -9,6 +9,9 @@
 
 #define PERMS 0644
 #define FNAME_SIZE 100
+#define READ_END 0
+#define WRITE_END 1
+#define BUFF_SIZE 200
 
 int MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY;
 
@@ -44,6 +47,47 @@ void read_keys_from_file(char* filename){
     fclose(file);
 }
 
+int get_wordcount(char* filename, char* word) {
+    int fd[2];
+    
+    if(pipe(fd)==-1){
+        perror("Pipe failed: check get_wordcount fn\n");
+        exit(1);
+    }
+
+    pid_t pid;
+    pid=fork();
+
+    if(pid==-1){
+        perror("Fork failed: check get_wordcount fn\n");
+        exit(1);
+    }
+
+    if (pid==0) {
+        close(fd[READ_END]); 
+        dup2(fd[WRITE_END], STDOUT_FILENO);
+        close(fd[WRITE_END]);
+
+        char command[200];
+        snprintf(command, sizeof(command), "grep -o '\\b%s\\b' %s | wc -l", word, filename);
+        execlp("sh", "sh", "-c", command, NULL);
+
+        perror("Error in execlp: check get_wordcount\n");
+        exit(1);
+    } else {
+        close(fd[WRITE_END]); 
+        wait(NULL); 
+
+        char buffer[BUFF_SIZE];
+        int count = 0;
+        if (read(fd[READ_END], buffer, BUFF_SIZE*sizeof(char)) != -1) {
+            count = atoi(buffer);
+        }
+        close(fd[READ_END]); 
+        return count;
+    }
+}
+
 int main(int argc,char** argv){
     int file_idx=atoi(argv[1]);
     printf("File index: %d\n",file_idx);
@@ -54,4 +98,8 @@ int main(int argc,char** argv){
 
     read_keys_from_file(infile);
     printf("Matrix size: %d\nMax len: %d\nSHM key: %d\nMSG key: %d\n",MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY);
+
+    char* word="abc";
+    int cnt=get_wordcount(wordfile,word);
+    printf("Word count: %d\n",cnt);
 }
