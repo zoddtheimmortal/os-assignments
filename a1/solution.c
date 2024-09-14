@@ -89,7 +89,7 @@ int get_wordcount(char* word, char* filename) {
 void read_keys_from_file(char* filename){
     FILE* file=fopen(filename,"r");
     if(file==NULL){
-        perror("No such file exists\n");
+        perror("No such file exists: check read_keys_from_file\n");
         exit(1);
     }
 
