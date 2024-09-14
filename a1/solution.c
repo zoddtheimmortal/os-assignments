@@ -79,7 +79,6 @@ int get_wordcount(char* word, char* filename) {
         char buffer[BUFF_SIZE];
         int count=0;
         if (read(fd[READ_END],buffer,BUFF_SIZE*sizeof(char))!=-1) {
-            printf("Count: %s\n",buffer);
             count = atoi(buffer);
         }
         close(fd[READ_END]);
@@ -102,10 +101,15 @@ void read_keys_from_file(char* filename){
     fclose(file);
 }
 
-void* runner(void* arg){
+void* decoder(void* arg){
     data* d=(data*)arg;
-    char* search_word=decode_caesar(d->word,d->shift);
-    cnt+=get_wordcount(search_word,wordfile);
+    d->word=decode_caesar(d->word,d->shift);
+    pthread_exit(NULL);
+}
+
+void* counter(void* arg){
+    data* d=(data*)arg;
+    cnt+=get_wordcount(d->word,wordfile);
     pthread_exit(NULL);
 }
 
@@ -140,7 +144,6 @@ int main(int argc,char** argv){
 
     for(int c=0;c<MATRIX_SIZE;c++){
         int i=0,j=c,t=0;
-        cnt=0;
 
         int THREAD_COUNT=c+1;
         pthread_t tid[THREAD_COUNT];
@@ -150,7 +153,20 @@ int main(int argc,char** argv){
             t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
             sprintf(t_data[t].word,"%s",shmptr[i][j]);
             t_data[t].shift=shift;
-            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            pthread_create(&tid[t],NULL,decoder,(void*)&t_data[t]);
+            i++; t++;
+            j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
+        }
+
+        i=0,j=c,t=0;
+        cnt=0;
+
+        while(i<MATRIX_SIZE&&j>=0){
+            pthread_create(&tid[t],NULL,counter,(void*)&t_data[t]);
             i++; t++;
             j--;
         }
@@ -188,7 +204,20 @@ int main(int argc,char** argv){
             t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
             sprintf(t_data[t].word,"%s",shmptr[i][j]);
             t_data[t].shift=shift;
-            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            pthread_create(&tid[t],NULL,decoder,(void*)&t_data[t]);
+            i++; t++;
+            j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
+        }
+
+        i=r,j=MATRIX_SIZE-1,t=0;
+        cnt=0;
+
+        while(i<MATRIX_SIZE&&j>=0){
+            pthread_create(&tid[t],NULL,counter,(void*)&t_data[t]);
             i++; t++;
             j--;
         }
