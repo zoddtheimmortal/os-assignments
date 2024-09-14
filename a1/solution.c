@@ -235,7 +235,7 @@ int main(int argc,char** argv){
             exit(1);
         }
 
-        if(msgrcv(msqid,&msg,sizeof(msg)-sizeof(msg.key),2,0)==-1){
+        if(msgrcv(msqid,&msg,sizeof(msg)-sizeof(msg.mtype),2,0)==-1){
             perror("Error in msgrcv: check main\n");
             exit(1);
         }
