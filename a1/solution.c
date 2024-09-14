@@ -173,6 +173,7 @@ int main(int argc,char** argv){
 
         for(int i=0;i<THREAD_COUNT;i++){
             pthread_join(tid[i],NULL);
+            free(t_data[i].word);
         }
 
         message msg;
@@ -224,6 +225,7 @@ int main(int argc,char** argv){
 
         for(int i=0;i<THREAD_COUNT;i++){
             pthread_join(tid[i],NULL);
+            free(t_data[i].word);
         }
 
         message msg;
