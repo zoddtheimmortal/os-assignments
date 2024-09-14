@@ -12,15 +12,35 @@
 #define READ_END 0
 #define WRITE_END 1
 #define BUFF_SIZE 200
+#define MSG_LEN 100
+
+#define N 3
 
 int MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY;
+
+typedef struct message{
+    long mtype;
+    int key;
+} message;
+
+typedef struct wordcnt{
+    char file[FNAME_SIZE];
+    char word[FNAME_SIZE];
+    int cnt;
+    int shift;
+} wordcnt;
 
 /*
 Areas to add threading:
  - decoding - make a thread to decode each str of the diagonal
  - wordcnter - new thread to cnt for each word
- - wordcnter - new thread to cnt for each letter???
 */
+
+void* runner(void* argv){
+    wordcnt* wc=(wordcnt*)argv;
+    wc->cnt=get_wordcount(wc->file,decode_ceasar(wc->word,wc->shift));
+    pthread_exit(NULL);
+}
 
 char* decode_ceasar(char* str,int shift){
     int len=strlen(str);
@@ -30,6 +50,31 @@ char* decode_ceasar(char* str,int shift){
         res[i]=(str[i]-'a'+shift)%26+'a';
     }
     return res;
+}
+
+void diagonal_printer(char* matrix[N][N]){
+    int tot_diagonals = 2*N-1;
+    char* diagonals[tot_diagonals][N];
+    int cnt[tot_diagonals];
+
+    for(int i=0;i<tot_diagonals;i++){
+        cnt[i] = 0;
+    }
+
+    for(int i=0;i<N;i++){
+        for(int j=0;j<N;j++){
+            int didx=i+j;
+            diagonals[didx][cnt[didx]++]=matrix[i][j];
+        }
+    }
+
+    for (int i=0;i<tot_diagonals;i++) {
+        printf("Diagonal %d: ",i-(N-1));
+        for (int j=0;j<cnt[i];j++) {
+            printf("%s ",diagonals[i][j]);
+        }
+        printf("\n");
+    }
 }
 
 void read_keys_from_file(char* filename){
@@ -90,16 +135,18 @@ int get_wordcount(char* filename, char* word) {
 
 int main(int argc,char** argv){
     int file_idx=atoi(argv[1]);
-    printf("File index: %d\n",file_idx);
 
     char infile[FNAME_SIZE],wordfile[FNAME_SIZE];
     sprintf(infile,"input%d.txt",file_idx);
     sprintf(wordfile,"words%d.txt",file_idx);
 
     read_keys_from_file(infile);
-    printf("Matrix size: %d\nMax len: %d\nSHM key: %d\nMSG key: %d\n",MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY);
 
-    char* word="abc";
-    int cnt=get_wordcount(wordfile,word);
-    printf("Word count: %d\n",cnt);
+    char* matrix[N][N]={
+        {"abcd","efef","ttto"},
+        {"ghi","rty","ybl"},
+        {"plk","xcvx","qwerty"}
+    };
+
+    diagonal_printer(matrix);
 }
