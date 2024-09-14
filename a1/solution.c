@@ -17,6 +17,7 @@
 #define WRITE_END 1
 #define BUFF_SIZE 200
 #define MSG_LEN 100
+#define WORD_LEN 1024
 
 int MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY;
 char infile[FNAME_SIZE],wordfile[FNAME_SIZE];
@@ -138,7 +139,7 @@ int main(int argc,char** argv){
     }
 
     for(int c=0;c<MATRIX_SIZE;c++){
-        int i=0,j=c;
+        int i=0,j=c,t=0;
         cnt=0;
 
         int THREAD_COUNT=c+1;
@@ -146,10 +147,11 @@ int main(int argc,char** argv){
         data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            sprintf(t_data[cnt].word,"%s",shmptr[i][j]);
-            t_data[cnt].shift=shift;
-            pthread_create(&tid[cnt],NULL,runner,(void*)&t_data[cnt]);
-            i++;
+            t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
+            sprintf(t_data[t].word,"%s",shmptr[i][j]);
+            t_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            i++; t++;
             j--;
         }
 
@@ -175,7 +177,7 @@ int main(int argc,char** argv){
      }
 
     for(int r=1;r<MATRIX_SIZE;r++){
-        int i=r,j=MATRIX_SIZE-1;
+        int i=r,j=MATRIX_SIZE-1,t=0;
         cnt=0;
 
         int THREAD_COUNT=MATRIX_SIZE-r;
@@ -183,10 +185,11 @@ int main(int argc,char** argv){
         data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            sprintf(t_data[cnt].word,"%s",shmptr[i][j]);
-            t_data[cnt].shift=shift;
-            pthread_create(&tid[cnt],NULL,runner,(void*)&t_data[cnt]);
-            i++;
+            t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
+            sprintf(t_data[t].word,"%s",shmptr[i][j]);
+            t_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            i++; t++;
             j--;
         }
 
