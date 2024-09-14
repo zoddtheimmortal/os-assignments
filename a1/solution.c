@@ -1,3 +1,4 @@
+#define _GNU_SOURCE
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/ipc.h>
@@ -7,6 +8,8 @@
 #include<unistd.h>
 #include<sys/wait.h>
 #include<string.h>
+#include<pthread.h>
+#include<sys/syscall.h> 
 
 #define PERMS 0644
 #define FNAME_SIZE 100
@@ -18,10 +21,17 @@
 int MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY;
 char infile[FNAME_SIZE],wordfile[FNAME_SIZE];
 
+int cnt=0;
+
 typedef struct message{
     long mtype;
     int key;
 } message;
+
+typedef struct data{
+    char* word;
+    int shift;
+} data;
 
 char* decode_caesar(char* str,int shift){
     int len=strlen(str);
@@ -91,6 +101,13 @@ void read_keys_from_file(char* filename){
     fclose(file);
 }
 
+void* runner(void* arg){
+    data* d=(data*)arg;
+    char* search_word=decode_caesar(d->word,d->shift);
+    cnt+=get_wordcount(search_word,wordfile);
+    pthread_exit(NULL);
+}
+
 int main(int argc,char** argv){
     int file_idx=atoi(argv[1]);
 
@@ -122,14 +139,22 @@ int main(int argc,char** argv){
 
     for(int c=0;c<MATRIX_SIZE;c++){
         int i=0,j=c;
-        int cnt=0;
+        cnt=0;
+
+        int THREAD_COUNT=c+1;
+        pthread_t tid[THREAD_COUNT];
+        data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            char* word=decode_caesar(shmptr[i][j],shift);
-            printf("Word: %s\n",word);
-            cnt+=get_wordcount(word,wordfile);
+            sprintf(t_data[cnt].word,"%s",shmptr[i][j]);
+            t_data[cnt].shift=shift;
+            pthread_create(&tid[cnt],NULL,runner,(void*)&t_data[cnt]);
             i++;
             j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
         }
 
         message msg;
@@ -150,14 +175,23 @@ int main(int argc,char** argv){
      }
 
     for(int r=1;r<MATRIX_SIZE;r++){
-        int cnt=0;
         int i=r,j=MATRIX_SIZE-1;
+        cnt=0;
+
+        int THREAD_COUNT=MATRIX_SIZE-r;
+        pthread_t tid[THREAD_COUNT];
+        data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            char* word=decode_caesar(shmptr[i][j],shift);
-            cnt+=get_wordcount(word,wordfile);
+            sprintf(t_data[cnt].word,"%s",shmptr[i][j]);
+            t_data[cnt].shift=shift;
+            pthread_create(&tid[cnt],NULL,runner,(void*)&t_data[cnt]);
             i++;
             j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
         }
 
         message msg;
