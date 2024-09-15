@@ -194,9 +194,9 @@ int main(int argc,char** argv){
         int i=0,j=c,t=0;
         cnt=0;
 
-        int THREAD_COUNT=c+1;
-        pthread_t tid[THREAD_COUNT];
-        data t_data[THREAD_COUNT];
+        // int THREAD_COUNT=c+1;
+        // pthread_t tid[THREAD_COUNT];
+        // data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
             char* search_word=decode_caesar(shmptr[i][j],shift);
@@ -205,9 +205,9 @@ int main(int argc,char** argv){
             j--;
         }
 
-        for(int i=0;i<THREAD_COUNT;i++){
-            pthread_join(tid[i],NULL);
-        }
+        // for(int i=0;i<THREAD_COUNT;i++){
+        //     pthread_join(tid[i],NULL);
+        // }
 
         message msg;
         msg.mtype=1;
