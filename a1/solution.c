@@ -9,7 +9,7 @@
 #include<sys/wait.h>
 #include<string.h>
 #include<pthread.h>
-#include<sys/syscall.h> 
+#include<sys/syscall.h>
 
 #define PERMS 0644
 #define FNAME_SIZE 100
@@ -93,14 +93,8 @@ void preprocess_file(Node* root){
     while(fscanf(file,"%s",buffer)!=EOF){
         insert(root,buffer);
     }
-
-    fclose(file);
-
-    file=fopen(wordfile,"r");
-    if(file==NULL){
-        perror("No such file exists: check preprocess_file\n");
-        exit(1);
-    }
+    
+    fseek(file,0,SEEK_SET);
 
     while(fscanf(file,"%s",buffer)!=EOF){
         search_count(root,buffer);
@@ -120,19 +114,36 @@ char* decode_caesar(char* str,int shift){
     return res;
 }
 
-int get_wordcount(char* word,Node* root) {
-    Node* temp=root;
-    int len=strlen(word);
+// int get_wordcount(char* word,Node* root) {
+//     Node* temp=root;
+//     int len=strlen(word);
 
-    for(int i=0;i<len;i++){
-        int charpos=word[i]-'a';
-        if(temp->children[charpos]==NULL) return 0;
-        temp=temp->children[charpos];
+//     for(int i=0;i<len;i++){
+//         int charpos=word[i]-'a';
+//         if(temp->children[charpos]==NULL) return 0;
+//         temp=temp->children[charpos];
+//     }
+
+//     if(temp!=NULL&&temp->is_end) return temp->wordcount;
+
+//     return 0;
+// }
+
+int get_wordcount(char* word,Node* root){
+    FILE* file=fopen(wordfile,"r");
+    if(file==NULL){
+        perror("No such file exists: check get_wordcount\n");
+        exit(1);
     }
 
-    if(temp!=NULL&&temp->is_end) return temp->wordcount;
+    char buffer[WORD_LEN];
+    int count=0;
+    while(fscanf(file,"%s",buffer)!=EOF){
+        if(strcmp(buffer,word)==0) count++;
+    }
 
-    return 0;
+    fclose(file);
+    return count;
 }
 
 void read_keys_from_file(char* filename){
@@ -167,7 +178,7 @@ int main(int argc,char** argv){
     
     root=get_new_node();
 
-    preprocess_file(root);
+    // preprocess_file(root);
 
     int shmid;
     char (*shmptr)[MATRIX_SIZE][MAX_LEN];
@@ -194,11 +205,21 @@ int main(int argc,char** argv){
         int i=0,j=c,t=0;
         cnt=0;
 
+        int THREAD_COUNT=c+1;
+        pthread_t tid[THREAD_COUNT];
+        data thread_data[THREAD_COUNT];
+
         while(i<MATRIX_SIZE&&j>=0){
-            char* search_word=decode_caesar(shmptr[i][j],shift);
-            cnt+=get_wordcount(search_word,root);
+            thread_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
+            sprintf(thread_data[t].word,"%s",shmptr[i][j]);
+            thread_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,(void*)&thread_data[t]);
             i++; t++;
             j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
         }
 
         message msg;
@@ -222,11 +243,21 @@ int main(int argc,char** argv){
         int i=r,j=MATRIX_SIZE-1,t=0;
         cnt=0;
 
+        int THREAD_COUNT=MATRIX_SIZE-r;
+        pthread_t tid[THREAD_COUNT];
+        data thread_data[THREAD_COUNT];
+
         while(i<MATRIX_SIZE&&j>=0){
-            char* search_word=decode_caesar(shmptr[i][j],shift);
-            cnt+=get_wordcount(search_word,root);
+            thread_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
+            sprintf(thread_data[t].word,"%s",shmptr[i][j]);
+            thread_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,(void*)&thread_data[t]);
             i++; t++;
             j--;
+        }
+
+        for(int i=0;i<THREAD_COUNT;i++){
+            pthread_join(tid[i],NULL);
         }
 
         message msg;
