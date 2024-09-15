@@ -199,10 +199,8 @@ int main(int argc,char** argv){
         data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
-            sprintf(t_data[t].word,"%s",shmptr[i][j]);
-            t_data[t].shift=shift;
-            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            char* search_word=decode_caesar(shmptr[i][j],shift);
+            cnt+=get_wordcount(search_word,root);
             i++; t++;
             j--;
         }
@@ -232,22 +230,20 @@ int main(int argc,char** argv){
         int i=r,j=MATRIX_SIZE-1,t=0;
         cnt=0;
 
-        int THREAD_COUNT=MATRIX_SIZE-r;
-        pthread_t tid[THREAD_COUNT];
-        data t_data[THREAD_COUNT];
+        // int THREAD_COUNT=MATRIX_SIZE-r;
+        // pthread_t tid[THREAD_COUNT];
+        // data t_data[THREAD_COUNT];
 
         while(i<MATRIX_SIZE&&j>=0){
-            t_data[t].word=(char*)malloc(MAX_LEN*sizeof(char));
-            sprintf(t_data[t].word,"%s",shmptr[i][j]);
-            t_data[t].shift=shift;
-            pthread_create(&tid[t],NULL,runner,(void*)&t_data[t]);
+            char* search_word=decode_caesar(shmptr[i][j],shift);
+            cnt+=get_wordcount(search_word,root);
             i++; t++;
             j--;
         }
 
-        for(int i=0;i<THREAD_COUNT;i++){
-            pthread_join(tid[i],NULL);
-        }
+        // for(int i=0;i<THREAD_COUNT;i++){
+        //     pthread_join(tid[i],NULL);
+        // }
 
         message msg;
         msg.mtype=1;
