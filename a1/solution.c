@@ -192,6 +192,7 @@ int main(int argc,char** argv){
 
     for(int c=0;c<MATRIX_SIZE;c++){
         int i=0,j=c,t=0;
+        cnt=0;
 
         int THREAD_COUNT=c+1;
         pthread_t tid[THREAD_COUNT];
