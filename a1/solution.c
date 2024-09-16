@@ -15,15 +15,14 @@
 #define FNAME_SIZE 100
 #define READ_END 0
 #define WRITE_END 1
-#define BUFF_SIZE 200
-#define MSG_LEN 100
-#define WORD_LEN 1024
+
 #define A 26
 
 int MATRIX_SIZE,MAX_LEN,SHM_KEY,MSG_KEY;
 char infile[FNAME_SIZE],wordfile[FNAME_SIZE];
 
 int cnt=0;
+pthread_mutex_t cnt_lock;
 
 typedef struct message{
     long mtype;
@@ -123,6 +122,16 @@ void read_keys_from_file(char* filename){
     fclose(file);
 }
 
+void* runner(void* args){
+    data* t_data=(data*)args;
+    char* search_word=decode_caesar(t_data->word,t_data->shift);
+    pthread_mutex_lock(&cnt_lock);
+    cnt+=get_wordcount(search_word,root);
+    pthread_mutex_unlock(&cnt_lock);
+    free(search_word);
+    pthread_exit(NULL);
+}
+
 int main(int argc,char** argv){
     int file_idx=atoi(argv[1]);
 
@@ -160,11 +169,22 @@ int main(int argc,char** argv){
         int i=0,j=c,t=0;
         cnt=0;
 
+        int THREAD_COUNT=c+1;
+        pthread_t tid[THREAD_COUNT];
+        data thread_data[THREAD_COUNT];
+
         while(i<MATRIX_SIZE&&j>=0){
-            char* search_word=decode_caesar(shmptr[i][j],shift);
-            cnt+=get_wordcount(search_word,root);
+            thread_data[t].word=(char*) malloc(MAX_LEN*sizeof(char));
+            sprintf(thread_data[t].word,"%s",shmptr[i][j]);
+            thread_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,&thread_data[t]);
             i++; t++;
             j--;
+        }
+
+        for(int i=0;i<t;i++){
+            pthread_join(tid[i],NULL);
+            free(thread_data[i].word);
         }
 
         message msg;
@@ -188,11 +208,22 @@ int main(int argc,char** argv){
         int i=r,j=MATRIX_SIZE-1,t=0;
         cnt=0;
 
+        int THREAD_COUNT=MATRIX_SIZE-r;
+        pthread_t tid[THREAD_COUNT];
+        data thread_data[THREAD_COUNT];
+
         while(i<MATRIX_SIZE&&j>=0){
-            char* search_word=decode_caesar(shmptr[i][j],shift);
-            cnt+=get_wordcount(search_word,root);
+            thread_data[t].word=(char*) malloc(MAX_LEN*sizeof(char));
+            sprintf(thread_data[t].word,"%s",shmptr[i][j]);
+            thread_data[t].shift=shift;
+            pthread_create(&tid[t],NULL,runner,&thread_data[t]);
             i++; t++;
             j--;
+        }
+
+        for(int i=0;i<t;i++){
+            pthread_join(tid[i],NULL);
+            free(thread_data[i].word);
         }
 
         message msg;
