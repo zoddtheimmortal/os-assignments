@@ -33,7 +33,6 @@ typedef struct message{
 typedef struct Node{
     struct Node* children[A];
     int wordcount;
-    int is_end;
 } Node;
 
 typedef struct data{
@@ -46,7 +45,6 @@ Node* root;
 Node* get_new_node(){
     Node* node=(Node*)malloc(sizeof(Node));
     node->wordcount=0;
-    node->is_end=0;
 
     for(int i=0;i<A;i++){
         node->children[i]=NULL;
@@ -65,21 +63,7 @@ void insert(Node* root,char* word){
         }
         temp=temp->children[charpos];
     }
-    temp->is_end=1;
-    temp->wordcount=0;
-}
-
-void search_count(Node* root,char* word){
-    Node* temp=root;
-    int len=strlen(word);
-
-    for(int i=0;i<len;i++){
-        int charpos=word[i]-'a';
-        if(temp->children[charpos]==NULL) return;
-        temp=temp->children[charpos];
-    }
-
-    if(temp!=NULL&&temp->is_end) temp->wordcount++;
+    temp->wordcount++;
 }
 
 void preprocess_file(Node* root){
@@ -89,16 +73,11 @@ void preprocess_file(Node* root){
         exit(1);
     }
 
-    char buffer[WORD_LEN];
+    char* buffer=(char*)malloc(MAX_LEN*sizeof(char));
     while(fscanf(file,"%s",buffer)!=EOF){
         insert(root,buffer);
     }
-    
-    fseek(file,0,SEEK_SET);
-
-    while(fscanf(file,"%s",buffer)!=EOF){
-        search_count(root,buffer);
-    }
+    free(buffer);
 
     fclose(file);
 }
@@ -124,7 +103,7 @@ int get_wordcount(char* word,Node* root) {
         temp=temp->children[charpos];
     }
 
-    if(temp!=NULL&&temp->is_end) return temp->wordcount;
+    if(temp!=NULL) return temp->wordcount;
 
     return 0;
 }
@@ -142,13 +121,6 @@ void read_keys_from_file(char* filename){
     fscanf(file,"%d",&MSG_KEY);
 
     fclose(file);
-}
-
-void* runner(void* arg){
-    data* d=(data*)arg;
-    char* search_word=decode_caesar(d->word,d->shift);
-    cnt+=get_wordcount(search_word,root);
-    pthread_exit(NULL);
 }
 
 int main(int argc,char** argv){
