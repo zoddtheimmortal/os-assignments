@@ -1,0 +1,78 @@
+Enter testcase number: 1
+Testcase 1
+N: 3 K: 10 M: 2 T: 5
+SHM_KEY: 44268198 MAINQ_KEY: 57721176
+QKEYS[0]: 68371728
+QKEYS[1]: 87139640
+Turn: 0 New Request: id: 0 sf: 1 rf: 4
+Turn: 0 New Request: id: 1 sf: 2 rf: 5
+Turn: 0 Movement: uuu
+Dropped: 0 Picked: 0
+Elevator: 0 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 1 Direction: 1 NumPassengers: 0
+
+Turn: 1 Movement: uuu
+Dropped: 0 Picked: 1
+Elevator: 0 Floor: 2 Direction: 1 NumPassengers: 1
+Elevator: 1 Floor: 2 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 2 Direction: 1 NumPassengers: 0
+
+Turn: 2 New Request: id: 2 sf: 3 rf: 9
+Turn: 2 Elevator: 0 AuthString: d
+Turn: 2 Movement: uuu
+Dropped: 0 Picked: 1
+Elevator: 0 Floor: 3 Direction: 1 NumPassengers: 2
+Elevator: 1 Floor: 3 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 3 Direction: 1 NumPassengers: 0
+
+Turn: 3 Elevator: 0 AuthString: bc
+Turn: 3 Movement: uuu
+Dropped: 0 Picked: 1
+Elevator: 0 Floor: 4 Direction: 1 NumPassengers: 3
+Elevator: 1 Floor: 4 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 4 Direction: 1 NumPassengers: 0
+
+Turn: 4 Elevator: 0 AuthString: cde
+Turn: 4 Movement: uuu
+Dropped: 1 Picked: 0
+Elevator: 0 Floor: 5 Direction: 1 NumPassengers: 2
+Elevator: 1 Floor: 5 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 5 Direction: 1 NumPassengers: 0
+
+Turn: 5 Elevator: 0 AuthString: af
+Turn: 5 Movement: uuu
+Dropped: 1 Picked: 0
+Elevator: 0 Floor: 6 Direction: 1 NumPassengers: 1
+Elevator: 1 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 6 Direction: 1 NumPassengers: 0
+
+Turn: 6 Elevator: 0 AuthString: f
+Turn: 6 Movement: uuu
+Dropped: 0 Picked: 0
+Elevator: 0 Floor: 7 Direction: 1 NumPassengers: 1
+Elevator: 1 Floor: 7 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 7 Direction: 1 NumPassengers: 0
+
+Turn: 7 Elevator: 0 AuthString: b
+Turn: 7 Movement: uuu
+Dropped: 0 Picked: 0
+Elevator: 0 Floor: 8 Direction: 1 NumPassengers: 1
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 8 Direction: 1 NumPassengers: 0
+
+Turn: 8 Elevator: 0 AuthString: e
+Turn: 8 Movement: uuu
+Dropped: 0 Picked: 0
+Elevator: 0 Floor: 9 Direction: -1 NumPassengers: 1
+Elevator: 1 Floor: 9 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 9 Direction: -1 NumPassengers: 0
+
+Turn: 9 Movement: sdd
+Dropped: 1 Picked: 0
+Elevator: 0 Floor: 9 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 8 Direction: -1 NumPassengers: 0
+
+Your solution took 0.002100 seconds to execute. This time may vary with server load, and won't be used for final evaluation.
+Your solution took 10 turns, with a total of 29 elevator movements, to successfully complete the test case. These numbers do not vary with server load.

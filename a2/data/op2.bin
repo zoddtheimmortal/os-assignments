@@ -1,0 +1,763 @@
+ers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 200 Movement: sddddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 12 Direction: -1 NumPassengers: 1
+Elevator: 2 Floor: 12 Direction: -1 NumPassengers: 2
+Elevator: 3 Floor: 19 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 31 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 20 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 201 Movement: sddddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 11 Direction: -1 NumPassengers: 1
+Elevator: 2 Floor: 11 Direction: -1 NumPassengers: 2
+Elevator: 3 Floor: 18 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 30 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 21 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 202 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 10 Direction: -1 NumPassengers: 1
+Elevator: 2 Floor: 10 Direction: -1 NumPassengers: 2
+Elevator: 3 Floor: 17 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 29 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 22 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 203 Movement: sddddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 10 Direction: -1 NumPassengers: 1
+Elevator: 2 Floor: 9 Direction: -1 NumPassengers: 2
+Elevator: 3 Floor: 16 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 28 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 23 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 204 Movement: sdddssusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 9 Direction: -1 NumPassengers: 1
+Elevator: 2 Floor: 8 Direction: -1 NumPassengers: 2
+Elevator: 3 Floor: 15 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 27 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 24 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 205 Movement: ssdddsusss
+Dropped: 2 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 7 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 14 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 27 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 25 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 206 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 6 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 13 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 26 Direction: -1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 26 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 207 Movement: sssddsssss
+Dropped: 1 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 5 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 12 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 25 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 27 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 208 Movement: ssdddsssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 5 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 11 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 23 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 27 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 209 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 4 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 10 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 22 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 27 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 210 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 3 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 9 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 28 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 211 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 2 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 8 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 20 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 29 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 212 Movement: ssdddsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 1 Direction: -1 NumPassengers: 1
+Elevator: 3 Floor: 7 Direction: -1 NumPassengers: 1
+Elevator: 4 Floor: 19 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 30 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 213 Movement: ssssdsusss
+Dropped: 2 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 18 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 31 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 214 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 17 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 32 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 215 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 16 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 33 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 216 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 15 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 34 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 217 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 14 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 35 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 218 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 13 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 36 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 219 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 12 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 37 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 220 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 11 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 38 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 221 Movement: ssssdsssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 10 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 39 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 222 Movement: ssssdsssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 9 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 39 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 223 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 39 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 224 Movement: ssssdsusss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 7 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 40 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 225 Movement: ssssususss
+Dropped: 0 Picked: 1
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 8 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 41 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 226 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 8 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 42 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 227 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 9 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 43 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 228 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 10 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 44 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 229 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 11 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 45 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 230 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 12 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 46 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 231 Movement: ssssususss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 13 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 47 Direction: 1 NumPassengers: 1
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 232 Movement: ssssusssss
+Dropped: 1 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 14 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 233 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 15 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 234 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 16 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 235 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 17 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 236 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 18 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 237 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 19 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 238 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 20 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 239 Movement: ssssssssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 21 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 240 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 21 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 241 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 22 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 242 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 23 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 243 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 24 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 244 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 25 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 245 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 26 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 246 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 27 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 247 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 28 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 248 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 29 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 249 Movement: ssssssssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 30 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 250 Movement: ssssssssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 30 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 251 Movement: ssssssssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 30 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 252 Movement: ssssusssss
+Dropped: 0 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: -1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: -1 NumPassengers: 0
+Elevator: 4 Floor: 30 Direction: 1 NumPassengers: 1
+Elevator: 5 Floor: 1 Direction: 1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: -1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: -1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Turn: 253 Movement: ssssssssss
+Dropped: 1 Picked: 0
+
+Elevator: 0 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 1 Floor: 8 Direction: 1 NumPassengers: 0
+Elevator: 2 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 3 Floor: 6 Direction: 1 NumPassengers: 0
+Elevator: 4 Floor: 31 Direction: -1 NumPassengers: 0
+Elevator: 5 Floor: 1 Direction: -1 NumPassengers: 0
+Elevator: 6 Floor: 48 Direction: 1 NumPassengers: 0
+Elevator: 7 Floor: 21 Direction: 1 NumPassengers: 0
+Elevator: 8 Floor: 0 Direction: 1 NumPassengers: 0
+Elevator: 9 Floor: 0 Direction: 1 NumPassengers: 0
+
+Your solution took 2.640243 seconds to execute. This time may vary with server load, and won't be used for final evaluation.
+Your solution took 254 turns, with a total of 1275 elevator movements, to successfully complete the test case. These numbers do not vary with server load.

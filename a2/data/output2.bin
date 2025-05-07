@@ -1,0 +1,857 @@
+Enter testcase number: 2
+Testcase 2
+Turn: 0 New Request: id: 0 sf: 49 rf: 24
+Turn: 0 Movement: usssssssss
+Dropped: 0 Picked: 0
+
+Turn: 1 Movement: usssssssss
+Dropped: 0 Picked: 0
+
+Turn: 2 New Request: id: 1 sf: 10 rf: 25
+Turn: 2 New Request: id: 2 sf: 32 rf: 8
+Turn: 2 Movement: uussssssss
+Dropped: 0 Picked: 0
+
+Turn: 3 Movement: uussssssss
+Dropped: 0 Picked: 0
+
+Turn: 4 New Request: id: 3 sf: 15 rf: 2
+Turn: 4 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 5 New Request: id: 4 sf: 26 rf: 46
+Turn: 5 New Request: id: 5 sf: 14 rf: 24
+Turn: 5 New Request: id: 6 sf: 17 rf: 48
+Turn: 5 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 6 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 7 New Request: id: 7 sf: 5 rf: 6
+Turn: 7 New Request: id: 8 sf: 11 rf: 26
+Turn: 7 Movement: uuusssssss
+Dropped: 0 Picked: 1
+
+Turn: 8 New Request: id: 9 sf: 5 rf: 27
+Turn: 8 New Request: id: 10 sf: 36 rf: 47
+Turn: 8 New Request: id: 11 sf: 25 rf: 45
+Turn: 8 Movement: ususssssss
+Dropped: 1 Picked: 0
+
+Turn: 9 New Request: id: 12 sf: 20 rf: 33
+Turn: 9 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 10 Movement: uuusssssss
+Dropped: 0 Picked: 1
+
+Turn: 11 New Request: id: 13 sf: 31 rf: 42
+Turn: 11 Movement: uuusssssss
+Dropped: 0 Picked: 1
+
+Turn: 12 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 13 New Request: id: 14 sf: 7 rf: 45
+Turn: 13 New Request: id: 15 sf: 4 rf: 30
+Turn: 13 Movement: uuusssssss
+Dropped: 0 Picked: 0
+
+Turn: 14 Movement: uuusssssss
+Dropped: 0 Picked: 1
+
+Turn: 15 New Request: id: 16 sf: 47 rf: 0
+Turn: 15 New Request: id: 17 sf: 26 rf: 38
+Turn: 15 Movement: uuuussssss
+Dropped: 0 Picked: 0
+
+Turn: 16 New Request: id: 18 sf: 17 rf: 7
+Turn: 16 Movement: uuuussssss
+Dropped: 0 Picked: 0
+
+Turn: 17 Movement: uuuussssss
+Dropped: 0 Picked: 1
+
+Turn: 18 Movement: uuuussssss
+Dropped: 0 Picked: 0
+
+Turn: 19 Movement: uudussssss
+Dropped: 0 Picked: 1
+
+Turn: 20 New Request: id: 19 sf: 18 rf: 15
+Turn: 20 Movement: uudussssss
+Dropped: 0 Picked: 1
+
+Turn: 21 Movement: uudussssss
+Dropped: 0 Picked: 0
+
+Turn: 22 New Request: id: 20 sf: 2 rf: 49
+Turn: 22 New Request: id: 21 sf: 37 rf: 42
+Turn: 22 Movement: uudussssss
+Dropped: 0 Picked: 0
+
+Turn: 23 New Request: id: 22 sf: 9 rf: 15
+Turn: 23 New Request: id: 23 sf: 20 rf: 32
+Turn: 23 New Request: id: 24 sf: 45 rf: 10
+Turn: 23 Movement: uudussssss
+Dropped: 0 Picked: 1
+
+Turn: 24 Movement: uudussssss
+Dropped: 1 Picked: 1
+
+Turn: 25 Movement: uudussssss
+Dropped: 1 Picked: 1
+
+Turn: 26 Movement: uudsssssss
+Dropped: 1 Picked: 2
+
+Turn: 27 Movement: uudsssssss
+Dropped: 0 Picked: 1
+
+Turn: 28 New Request: id: 25 sf: 23 rf: 35
+Turn: 28 New Request: id: 26 sf: 36 rf: 32
+Turn: 28 Movement: usdussssss
+Dropped: 0 Picked: 0
+
+Turn: 29 Movement: uudussssss
+Dropped: 0 Picked: 0
+
+Turn: 30 New Request: id: 27 sf: 43 rf: 48
+Turn: 30 New Request: id: 28 sf: 1 rf: 18
+Turn: 30 Movement: uudussssss
+Dropped: 0 Picked: 1
+
+Turn: 31 New Request: id: 29 sf: 15 rf: 34
+Turn: 31 Movement: usdussssss
+Dropped: 0 Picked: 0
+
+Turn: 32 New Request: id: 30 sf: 42 rf: 32
+Turn: 32 Movement: uuusssssss
+Dropped: 2 Picked: 1
+
+Turn: 33 New Request: id: 31 sf: 35 rf: 5
+Turn: 33 Movement: uuuussssss
+Dropped: 1 Picked: 0
+
+Turn: 34 New Request: id: 32 sf: 36 rf: 37
+Turn: 34 Movement: uuuussssss
+Dropped: 0 Picked: 0
+
+Turn: 35 Movement: uuuussssss
+Dropped: 0 Picked: 1
+
+Turn: 36 New Request: id: 33 sf: 32 rf: 3
+Turn: 36 New Request: id: 34 sf: 42 rf: 22
+Turn: 36 Movement: uuuuusssss
+Dropped: 0 Picked: 1
+
+Turn: 37 New Request: id: 35 sf: 38 rf: 41
+Turn: 37 Movement: uuuuusssss
+Dropped: 1 Picked: 1
+
+Turn: 38 New Request: id: 36 sf: 22 rf: 20
+Turn: 38 Movement: usuuuussss
+Dropped: 1 Picked: 0
+
+Turn: 39 Movement: usuuuussss
+Dropped: 0 Picked: 0
+
+Turn: 40 Movement: uuuuuussss
+Dropped: 0 Picked: 0
+
+Turn: 41 New Request: id: 37 sf: 34 rf: 24
+Turn: 41 New Request: id: 38 sf: 44 rf: 22
+Turn: 41 Movement: uuuuuussss
+Dropped: 0 Picked: 1
+
+Turn: 42 New Request: id: 39 sf: 29 rf: 0
+Turn: 42 Movement: uuuuuuusss
+Dropped: 0 Picked: 1
+
+Turn: 43 New Request: id: 40 sf: 21 rf: 46
+Turn: 43 New Request: id: 41 sf: 1 rf: 30
+Turn: 43 Movement: uuuuuuusss
+Dropped: 0 Picked: 0
+
+Turn: 44 Movement: uuuuuuusss
+Dropped: 0 Picked: 0
+
+Turn: 45 New Request: id: 42 sf: 38 rf: 8
+Turn: 45 New Request: id: 43 sf: 45 rf: 42
+Turn: 45 Movement: uusuuuuuss
+Dropped: 1 Picked: 0
+
+Turn: 46 New Request: id: 44 sf: 6 rf: 36
+Turn: 46 Movement: uuuuuuuuss
+Dropped: 1 Picked: 0
+
+Turn: 47 New Request: id: 45 sf: 8 rf: 6
+Turn: 47 Movement: uuuuuuuuss
+Dropped: 1 Picked: 0
+
+Turn: 48 Movement: uuuuuuuuss
+Dropped: 1 Picked: 0
+
+Turn: 49 New Request: id: 46 sf: 21 rf: 39
+Turn: 49 Movement: duuuuuuuss
+Dropped: 0 Picked: 2
+
+Turn: 50 Movement: duuuuuuuss
+Dropped: 0 Picked: 0
+
+Turn: 51 New Request: id: 47 sf: 26 rf: 37
+Turn: 51 Movement: dduuuuuuss
+Dropped: 0 Picked: 1
+
+Turn: 52 Movement: dduuuuuuss
+Dropped: 1 Picked: 1
+
+Turn: 53 New Request: id: 48 sf: 33 rf: 14
+Turn: 53 New Request: id: 49 sf: 34 rf: 2
+Turn: 53 Movement: dduuuuuuss
+Dropped: 0 Picked: 0
+
+Turn: 54 New Request: id: 50 sf: 29 rf: 49
+Turn: 54 Movement: sduuuuuuss
+Dropped: 0 Picked: 0
+
+Turn: 55 New Request: id: 51 sf: 25 rf: 30
+Turn: 55 Movement: dduuuuuuss
+Dropped: 0 Picked: 1
+
+Turn: 56 New Request: id: 52 sf: 26 rf: 8
+Turn: 56 Movement: dduuuuuuss
+Dropped: 0 Picked: 2
+
+Turn: 57 New Request: id: 53 sf: 48 rf: 22
+Turn: 57 Movement: dduuuuuuss
+Dropped: 0 Picked: 0
+
+Turn: 58 New Request: id: 54 sf: 21 rf: 20
+Turn: 58 Movement: dduuuuuuss
+Dropped: 0 Picked: 0
+
+Turn: 59 New Request: id: 55 sf: 5 rf: 20
+Turn: 59 Movement: dduuuuuuss
+Dropped: 1 Picked: 0
+
+Turn: 60 New Request: id: 56 sf: 7 rf: 31
+Turn: 60 Movement: dduuuduuss
+Dropped: 1 Picked: 1
+
+Turn: 61 New Request: id: 57 sf: 15 rf: 29
+Turn: 61 Movement: dduuuduuss
+Dropped: 2 Picked: 2
+
+Turn: 62 Movement: dduuuduuss
+Dropped: 1 Picked: 0
+
+Turn: 63 Movement: dduuuduuss
+Dropped: 0 Picked: 1
+
+Turn: 64 New Request: id: 58 sf: 28 rf: 42
+Turn: 64 Movement: dduuuduuss
+Dropped: 0 Picked: 1
+
+Turn: 65 New Request: id: 59 sf: 30 rf: 23
+Turn: 65 New Request: id: 60 sf: 30 rf: 47
+Turn: 65 Movement: dduuuduuss
+Dropped: 0 Picked: 1
+
+Turn: 66 Movement: ddududuuss
+Dropped: 1 Picked: 1
+
+Turn: 67 New Request: id: 61 sf: 23 rf: 5
+Turn: 67 New Request: id: 62 sf: 33 rf: 37
+Turn: 67 Movement: ddududuuss
+Dropped: 0 Picked: 1
+
+Turn: 68 Movement: ddududuuss
+Dropped: 0 Picked: 2
+
+Turn: 69 Movement: ddududuuss
+Dropped: 0 Picked: 2
+
+Turn: 70 New Request: id: 63 sf: 39 rf: 0
+Turn: 70 New Request: id: 64 sf: 23 rf: 5
+Turn: 70 New Request: id: 65 sf: 32 rf: 49
+Turn: 70 Movement: ddududuuss
+Dropped: 1 Picked: 0
+
+Turn: 71 Movement: ddududduss
+Dropped: 1 Picked: 1
+
+Turn: 72 New Request: id: 66 sf: 32 rf: 27
+Turn: 72 New Request: id: 67 sf: 23 rf: 45
+Turn: 72 New Request: id: 68 sf: 10 rf: 33
+Turn: 72 Movement: ddududduss
+Dropped: 0 Picked: 1
+
+Turn: 73 New Request: id: 69 sf: 38 rf: 10
+Turn: 73 New Request: id: 70 sf: 39 rf: 2
+Turn: 73 Movement: ddududduss
+Dropped: 2 Picked: 1
+
+Turn: 74 New Request: id: 71 sf: 39 rf: 3
+Turn: 74 Movement: ddududduss
+Dropped: 0 Picked: 1
+
+Turn: 75 Movement: ddududsuss
+Dropped: 2 Picked: 3
+
+Turn: 76 New Request: id: 72 sf: 29 rf: 6
+Turn: 76 Movement: ddddudduss
+Dropped: 2 Picked: 3
+
+Turn: 77 New Request: id: 73 sf: 18 rf: 46
+Turn: 77 New Request: id: 74 sf: 5 rf: 13
+Turn: 77 Movement: ddddudsuss
+Dropped: 0 Picked: 0
+
+Turn: 78 New Request: id: 75 sf: 37 rf: 27
+Turn: 78 New Request: id: 76 sf: 24 rf: 27
+Turn: 78 Movement: ddddudduss
+Dropped: 1 Picked: 1
+
+Turn: 79 Movement: ddddudduss
+Dropped: 0 Picked: 0
+
+Turn: 80 New Request: id: 77 sf: 32 rf: 44
+Turn: 80 New Request: id: 78 sf: 18 rf: 39
+Turn: 80 Movement: ddddudduss
+Dropped: 0 Picked: 0
+
+Turn: 81 Movement: dddduuduss
+Dropped: 0 Picked: 1
+
+Turn: 82 New Request: id: 79 sf: 5 rf: 1
+Turn: 82 New Request: id: 80 sf: 19 rf: 11
+Turn: 82 Movement: dddduuduss
+Dropped: 0 Picked: 0
+
+Turn: 83 New Request: id: 81 sf: 18 rf: 4
+Turn: 83 New Request: id: 82 sf: 46 rf: 2
+Turn: 83 Movement: ddddduduss
+Dropped: 1 Picked: 2
+
+Turn: 84 New Request: id: 83 sf: 38 rf: 27
+Turn: 84 Movement: ddddduduss
+Dropped: 0 Picked: 2
+
+Turn: 85 New Request: id: 84 sf: 14 rf: 3
+Turn: 85 New Request: id: 85 sf: 48 rf: 35
+Turn: 85 New Request: id: 86 sf: 47 rf: 14
+Turn: 85 New Request: id: 87 sf: 23 rf: 22
+Turn: 85 Movement: ddddduduss
+Dropped: 0 Picked: 1
+
+Turn: 86 New Request: id: 88 sf: 10 rf: 8
+Turn: 86 New Request: id: 89 sf: 30 rf: 16
+Turn: 86 Movement: ddddduduss
+Dropped: 0 Picked: 0
+
+Turn: 87 Movement: ddddduduss
+Dropped: 1 Picked: 0
+
+Turn: 88 Movement: dddddudsss
+Dropped: 0 Picked: 0
+
+Turn: 89 Movement: ddddduduss
+Dropped: 2 Picked: 0
+
+Turn: 90 New Request: id: 90 sf: 11 rf: 21
+Turn: 90 New Request: id: 91 sf: 33 rf: 0
+Turn: 90 Movement: ddddduduss
+Dropped: 1 Picked: 2
+
+Turn: 91 Movement: ddddduddss
+Dropped: 1 Picked: 2
+
+Turn: 92 Movement: ddddduddss
+Dropped: 0 Picked: 1
+
+Turn: 93 New Request: id: 92 sf: 20 rf: 7
+Turn: 93 Movement: ddddduddss
+Dropped: 1 Picked: 0
+
+Turn: 94 New Request: id: 93 sf: 45 rf: 25
+Turn: 94 New Request: id: 94 sf: 26 rf: 0
+Turn: 94 Movement: duddduddss
+Dropped: 4 Picked: 0
+
+Turn: 95 New Request: id: 95 sf: 37 rf: 4
+Turn: 95 Movement: duddduddss
+Dropped: 0 Picked: 2
+
+Turn: 96 New Request: id: 96 sf: 7 rf: 21
+Turn: 96 New Request: id: 97 sf: 15 rf: 44
+Turn: 96 Movement: uuddduddss
+Dropped: 1 Picked: 0
+
+Turn: 97 Movement: uudddudsss
+Dropped: 0 Picked: 0
+
+Turn: 98 Movement: uuddduddss
+Dropped: 1 Picked: 1
+
+Turn: 99 New Request: id: 98 sf: 14 rf: 48
+Turn: 99 New Request: id: 99 sf: 21 rf: 39
+Turn: 99 Movement: uuddduddss
+Dropped: 0 Picked: 0
+
+Turn: 100 Movement: uuddduddss
+Dropped: 0 Picked: 2
+
+Turn: 101 Movement: uuddduddss
+Dropped: 1 Picked: 1
+
+Turn: 102 Movement: uuddduudss
+Dropped: 1 Picked: 0
+
+Turn: 103 Movement: uuddduudss
+Dropped: 0 Picked: 2
+
+Turn: 104 Movement: uuddduusss
+Dropped: 0 Picked: 0
+
+Turn: 105 Movement: uuddduudss
+Dropped: 0 Picked: 0
+
+Turn: 106 Movement: uuddduudss
+Dropped: 1 Picked: 1
+
+Turn: 107 Movement: uuddduudss
+Dropped: 1 Picked: 0
+
+Turn: 108 Movement: uuddduudss
+Dropped: 1 Picked: 0
+
+Turn: 109 Movement: uuddduudss
+Dropped: 0 Picked: 0
+
+Turn: 110 Movement: uuddduudss
+Dropped: 1 Picked: 0
+
+Turn: 111 Movement: uuddduudss
+Dropped: 2 Picked: 0
+
+Turn: 112 Movement: uuddduudss
+Dropped: 1 Picked: 1
+
+Turn: 113 Movement: uuddduudss
+Dropped: 0 Picked: 2
+
+Turn: 114 Movement: uududuusss
+Dropped: 4 Picked: 1
+
+Turn: 115 Movement: uududuudss
+Dropped: 1 Picked: 0
+
+Turn: 116 Movement: uududuudss
+Dropped: 1 Picked: 1
+
+Turn: 117 Movement: uududuudss
+Dropped: 0 Picked: 0
+
+Turn: 118 Movement: uududuudss
+Dropped: 0 Picked: 0
+
+Turn: 119 Movement: uududdudss
+Dropped: 1 Picked: 1
+
+Turn: 120 Movement: uududdudss
+Dropped: 1 Picked: 0
+
+Turn: 121 Movement: uuuuddudss
+Dropped: 1 Picked: 1
+
+Turn: 122 Movement: suuuddudss
+Dropped: 0 Picked: 0
+
+Turn: 123 Movement: uuuudsudss
+Dropped: 0 Picked: 0
+
+Turn: 124 Movement: uuuuddudss
+Dropped: 0 Picked: 0
+
+Turn: 125 Movement: uuuuddudss
+Dropped: 0 Picked: 1
+
+Turn: 126 Movement: uuuuddudss
+Dropped: 0 Picked: 1
+
+Turn: 127 Movement: uuuuudsdss
+Dropped: 1 Picked: 0
+
+Turn: 128 Movement: uduuusudss
+Dropped: 1 Picked: 0
+
+Turn: 129 Movement: uduuududss
+Dropped: 0 Picked: 0
+
+Turn: 130 Movement: uduuududss
+Dropped: 0 Picked: 0
+
+Turn: 131 Movement: uduuududss
+Dropped: 2 Picked: 0
+
+Turn: 132 Movement: uduuusuuss
+Dropped: 1 Picked: 2
+
+Turn: 133 Movement: udsuuduuss
+Dropped: 0 Picked: 0
+
+Turn: 134 Movement: sdusuduuss
+Dropped: 0 Picked: 0
+
+Turn: 135 Movement: uduuusduss
+Dropped: 0 Picked: 1
+
+Turn: 136 Movement: uduuudduss
+Dropped: 0 Picked: 1
+
+Turn: 137 Movement: uduuudduss
+Dropped: 1 Picked: 0
+
+Turn: 138 Movement: uduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 139 Movement: uduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 140 Movement: uduuudduss
+Dropped: 1 Picked: 0
+
+Turn: 141 Movement: uduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 142 Movement: uduuudduss
+Dropped: 0 Picked: 1
+
+Turn: 143 Movement: dduuudduss
+Dropped: 0 Picked: 1
+
+Turn: 144 Movement: dduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 145 Movement: dduuudduss
+Dropped: 1 Picked: 0
+
+Turn: 146 Movement: dduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 147 Movement: dduuudsuss
+Dropped: 0 Picked: 1
+
+Turn: 148 Movement: dduuudduss
+Dropped: 0 Picked: 1
+
+Turn: 149 Movement: sduusdsuss
+Dropped: 1 Picked: 0
+
+Turn: 150 Movement: dduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 151 Movement: dduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 152 Movement: dduuudsuss
+Dropped: 1 Picked: 0
+
+Turn: 153 Movement: sduuudsuss
+Dropped: 0 Picked: 1
+
+Turn: 154 Movement: sduuudduss
+Dropped: 0 Picked: 0
+
+Turn: 155 Movement: ssuuudduss
+Dropped: 2 Picked: 1
+
+Turn: 156 Movement: dsuusdduss
+Dropped: 1 Picked: 0
+
+Turn: 157 Movement: dsuuuuduss
+Dropped: 1 Picked: 0
+
+Turn: 158 Movement: dsuuuususs
+Dropped: 0 Picked: 0
+
+Turn: 159 Movement: dsuuuuduss
+Dropped: 1 Picked: 0
+
+Turn: 160 Movement: ssuuuuduss
+Dropped: 0 Picked: 1
+
+Turn: 161 Movement: dsuusuduss
+Dropped: 1 Picked: 0
+
+Turn: 162 Movement: dsussususs
+Dropped: 0 Picked: 0
+
+Turn: 163 Movement: dsuuuuduss
+Dropped: 0 Picked: 0
+
+Turn: 164 Movement: dsuuuususs
+Dropped: 0 Picked: 0
+
+Turn: 165 Movement: dsuduususs
+Dropped: 1 Picked: 1
+
+Turn: 166 Movement: dsuduuduss
+Dropped: 0 Picked: 0
+
+Turn: 167 Movement: dsuduususs
+Dropped: 0 Picked: 0
+
+Turn: 168 Movement: dsuduuduss
+Dropped: 0 Picked: 1
+
+Turn: 169 Movement: dsuduuduss
+Dropped: 1 Picked: 0
+
+Turn: 170 Movement: dsuduususs
+Dropped: 2 Picked: 1
+
+Turn: 171 Movement: dsdduusdss
+Dropped: 2 Picked: 0
+
+Turn: 172 Movement: dsdduusdss
+Dropped: 0 Picked: 0
+
+Turn: 173 Movement: dsdduusdss
+Dropped: 0 Picked: 0
+
+Turn: 174 Movement: ssdduusdss
+Dropped: 1 Picked: 0
+
+Turn: 175 Movement: ssdduussss
+Dropped: 0 Picked: 1
+
+Turn: 176 Movement: ssdduusdss
+Dropped: 0 Picked: 1
+
+Turn: 177 Movement: ssdddussss
+Dropped: 1 Picked: 0
+
+Turn: 178 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 179 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 180 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 181 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 182 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 183 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 184 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 185 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 186 Movement: ssdddussss
+Dropped: 0 Picked: 0
+
+Turn: 187 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 188 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 189 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 190 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 191 Movement: ssdddusdss
+Dropped: 1 Picked: 0
+
+Turn: 192 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 193 Movement: ssdddusdss
+Dropped: 1 Picked: 0
+
+Turn: 194 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 195 Movement: ssdddusdss
+Dropped: 1 Picked: 0
+
+Turn: 196 Movement: ssdddusdss
+Dropped: 1 Picked: 0
+
+Turn: 197 Movement: ssdddssdss
+Dropped: 0 Picked: 0
+
+Turn: 198 Movement: ssdddssdss
+Dropped: 0 Picked: 0
+
+Turn: 199 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 200 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 201 Movement: ssdddusdss
+Dropped: 0 Picked: 0
+
+Turn: 202 Movement: ssdddssdss
+Dropped: 1 Picked: 1
+
+Turn: 203 Movement: ssdddssdss
+Dropped: 0 Picked: 0
+
+Turn: 204 Movement: ssdsdssdss
+Dropped: 1 Picked: 0
+
+Turn: 205 Movement: ssdsdssdss
+Dropped: 0 Picked: 1
+
+Turn: 206 Movement: ssdssssdss
+Dropped: 0 Picked: 0
+
+Turn: 207 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 208 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 209 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 210 Movement: ssdsdssdss
+Dropped: 0 Picked: 1
+
+Turn: 211 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 212 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 213 Movement: ssdsdssdss
+Dropped: 2 Picked: 0
+
+Turn: 214 Movement: ssdsdssdss
+Dropped: 0 Picked: 0
+
+Turn: 215 Movement: ssdsdssuss
+Dropped: 0 Picked: 2
+
+Turn: 216 Movement: ssdsdssuss
+Dropped: 0 Picked: 0
+
+Turn: 217 Movement: ssdsdssuss
+Dropped: 0 Picked: 0
+
+Turn: 218 Movement: ssdsdssuss
+Dropped: 1 Picked: 0
+
+Turn: 219 Movement: ssssdssuss
+Dropped: 0 Picked: 0
+
+Turn: 220 Movement: ssdsdssuss
+Dropped: 0 Picked: 0
+
+Turn: 221 Movement: ssssdssuss
+Dropped: 1 Picked: 0
+
+Turn: 222 Movement: ssssdssuss
+Dropped: 0 Picked: 0
+
+Turn: 223 Movement: sssssssuss
+Dropped: 2 Picked: 0
+
+Turn: 224 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 225 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 226 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 227 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 228 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 229 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 230 Movement: sssssssuss
+Dropped: 1 Picked: 0
+
+Turn: 231 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 232 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 233 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 234 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 235 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 236 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 237 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 238 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 239 Movement: sssssssuss
+Dropped: 1 Picked: 0
+
+Turn: 240 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 241 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 242 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 243 Movement: sssssssuss
+Dropped: 1 Picked: 0
+
+Turn: 244 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 245 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 246 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 247 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 248 Movement: ssssssssss
+Dropped: 0 Picked: 0
+
+Turn: 249 Movement: sssssssuss
+Dropped: 0 Picked: 0
+
+Turn: 250 Movement: ssssssssss
+Dropped: 1 Picked: 0
+
+Your solution took 1.114095 seconds to execute. This time may vary with server load, and won't be used for final evaluation.
+Your solution took 251 turns, with a total of 1365 elevator movements, to successfully complete the test case. These numbers do not vary with server load.
